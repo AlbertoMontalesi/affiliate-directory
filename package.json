@@ -1,0 +1,17 @@
+{
+  "name": "affiliate-directory",
+  "version": "1.0.0",
+  "description": "Centralized affiliate link directory consumed by Langi, Map2Maps, AppFramer and other sites.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./affiliates.json": "./affiliates.json"
+  },
+  "files": [
+    "index.js",
+    "affiliates.json"
+  ],
+  "license": "UNLICENSED",
+  "private": true
+}

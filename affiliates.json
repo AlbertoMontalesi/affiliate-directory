@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "updatedAt": "2026-08-12",
+  "affiliates": [
+    {
+      "id": "wise",
+      "name": "Wise",
+      "tag": "Money transfers",
+      "description": "Send money internationally with real exchange rates and save up to 6x on transfer fees.",
+      "url": "https://wise.com/invite/ihpc/albertom231",
+      "icon": "💸",
+      "backgroundColor": "#059669",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "bunny",
+      "name": "bunny.net",
+      "tag": "CDN / storage",
+      "description": "Global CDN, storage, and media delivery tools that keep websites and video fast worldwide.",
+      "url": "https://bunny.net/?ref=uifjc03pwo",
+      "icon": "🐰",
+      "backgroundColor": "#f97316",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "tag": "Productivity",
+      "description": "A keyboard-first launcher with extensions, snippets, and AI to speed up everyday work.",
+      "url": "https://raycast.com/?via=alberto-montalesi",
+      "icon": "⚡",
+      "backgroundColor": "#0f172a",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "refgrow",
+      "name": "Refgrow",
+      "tag": "Referral programs",
+      "description": "A referral program platform for SaaS and AI products with automated tracking, commission management, and payouts.",
+      "url": "https://refgrow.com?ref=AUTZ8C",
+      "icon": "🚀",
+      "backgroundColor": "#9333ea",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "langi",
+      "name": "Langi",
+      "tag": "Language learning",
+      "description": "Read bite-sized stories with audio to learn languages at your level.",
+      "url": "https://langi.app",
+      "icon": "📚",
+      "backgroundColor": "#eab308",
+      "textColor": "#000000",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "map2maps",
+      "name": "Map2Maps",
+      "tag": "Map comparison tool",
+      "description": "Compare basemap styles side by side before you commit to one for your project.",
+      "url": "https://map2maps.com",
+      "icon": "🗺️",
+      "backgroundColor": "#0d9488",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1
+    },
+    {
+      "id": "appframer",
+      "name": "AppFramer",
+      "tag": "App mockups",
+      "description": "Frame your app screenshots for the App Store, Play Store, and marketing pages.",
+      "url": "https://appframer.com",
+      "icon": "🖼️",
+      "backgroundColor": "#161410",
+      "textColor": "#ede8df",
+      "enabled": true,
+      "weight": 1
+    }
+  ]
+}

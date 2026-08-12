@@ -6,6 +6,7 @@
       "id": "wise",
       "name": "Wise",
       "tag": "Money transfers",
+      "badge": "Money",
       "description": "Send money internationally with real exchange rates and save up to 6x on transfer fees.",
       "ctaText": "Try Wise",
       "url": "https://wise.com/invite/ihpc/albertom231",
@@ -14,12 +15,14 @@
       "backgroundColor": "#059669",
       "textColor": "#ffffff",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["money", "finance", "travel", "freelance"]
     },
     {
       "id": "bunny",
       "name": "bunny.net",
       "tag": "CDN / storage",
+      "badge": "CDN",
       "description": "Global CDN, storage, and media delivery tools that keep websites and video fast worldwide.",
       "ctaText": "Explore bunny.net",
       "url": "https://bunny.net/?ref=uifjc03pwo",
@@ -28,12 +31,24 @@
       "backgroundColor": "#f97316",
       "textColor": "#ffffff",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": [
+        "cloudflare",
+        "nextjs",
+        "webdev",
+        "hosting",
+        "deployment",
+        "performance",
+        "js",
+        "html",
+        "css"
+      ]
     },
     {
       "id": "raycast",
       "name": "Raycast",
       "tag": "Productivity",
+      "badge": "Mac",
       "description": "A keyboard-first launcher with extensions, snippets, and AI to speed up everyday work.",
       "ctaText": "Try Raycast",
       "url": "https://raycast.com/?via=alberto-montalesi",
@@ -42,12 +57,14 @@
       "backgroundColor": "#0f172a",
       "textColor": "#ffffff",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["productivity", "mac", "tools", "workflow", "vscode", "js", "webdev"]
     },
     {
       "id": "refgrow",
       "name": "Refgrow",
       "tag": "Referral programs",
+      "badge": "SaaS",
       "description": "A referral program platform for SaaS and AI products with automated tracking, commission management, and payouts.",
       "ctaText": "Explore Refgrow",
       "url": "https://refgrow.com?ref=AUTZ8C",
@@ -56,12 +73,14 @@
       "backgroundColor": "#9333ea",
       "textColor": "#ffffff",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["saas", "startup", "marketing", "referral", "mobile app"]
     },
     {
       "id": "elevenlabs",
       "name": "ElevenLabs",
       "tag": "AI voice / audio",
+      "badge": "AI",
       "description": "Realistic AI text-to-speech and voice cloning for narration, dubbing, and voice agents.",
       "ctaText": "Try ElevenLabs",
       "url": "https://try.elevenlabs.io/hp2ci6ap22cr",
@@ -70,46 +89,72 @@
       "backgroundColor": "#000000",
       "textColor": "#ffffff",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["ai", "voice", "audio", "tts", "video", "podcast"]
+    },
+    {
+      "id": "educative",
+      "name": "Educative",
+      "tag": "Learning platform",
+      "badge": "Courses",
+      "description": "Interactive, text-based coding courses for web development, Python, and technical interview prep.",
+      "ctaText": "Explore Educative",
+      "url": "https://www.educative.io/?aff=BqmB",
+      "dashboardUrl": null,
+      "icon": "🎓",
+      "backgroundColor": "#1d4ed8",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1,
+      "topics": ["programming", "coding", "javascript", "python", "webdev", "learning", "interview"]
     },
     {
       "id": "langi",
       "name": "Langi",
       "tag": "Language learning",
+      "badge": "Learning",
       "description": "Read bite-sized stories with audio to learn languages at your level.",
       "ctaText": "Start Learning",
       "url": "https://langi.app",
+      "dashboardUrl": null,
       "icon": "📚",
       "backgroundColor": "#eab308",
       "textColor": "#000000",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["language", "learning", "mobile app", "travel", "vietnamese", "german", "italian"]
     },
     {
       "id": "map2maps",
       "name": "Map2Maps",
       "tag": "Map comparison tool",
+      "badge": "Tools",
       "description": "Compare basemap styles side by side before you commit to one for your project.",
       "ctaText": "Try Map2Maps",
       "url": "https://map2maps.com",
+      "dashboardUrl": null,
       "icon": "🗺️",
       "backgroundColor": "#0d9488",
       "textColor": "#ffffff",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["maps", "gis", "design", "webdev"]
     },
     {
       "id": "appframer",
       "name": "AppFramer",
       "tag": "App mockups",
+      "badge": "Design",
       "description": "Frame your app screenshots for the App Store, Play Store, and marketing pages.",
       "ctaText": "Try AppFramer",
       "url": "https://appframer.com",
+      "dashboardUrl": null,
       "icon": "🖼️",
       "backgroundColor": "#161410",
       "textColor": "#ede8df",
       "enabled": true,
-      "weight": 1
+      "weight": 1,
+      "topics": ["mobile app", "app store", "design", "marketing"]
     }
   ]
 }

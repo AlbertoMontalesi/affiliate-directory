@@ -11,7 +11,8 @@ hardcoding links, so a link only needs to be updated in one place.
   {
     "id": "wise",           // stable id, also used for self-exclusion
     "name": "Wise",
-    "tag": "Money transfers",
+    "tag": "Money transfers",       // longer, for detail views
+    "badge": "Money",               // short, for compact UI chips
     "description": "...",
     "url": "https://...",
     "dashboardUrl": "https://...", // your login/stats page for this program, or null. Personal use — sites should not render this field.
@@ -19,12 +20,19 @@ hardcoding links, so a link only needs to be updated in one place.
     "backgroundColor": "#059669",
     "textColor": "#ffffff",
     "enabled": true,
-    "weight": 1              // higher = shown/rotated more often
+    "weight": 1,             // higher = shown/rotated more often
+    "topics": ["money", "finance", "travel"] // keywords for contextual selection, see pickAffiliatesForTopics
   }
   ```
-- `index.js` — tiny helper (`getAffiliates`, `getAffiliateById`) for consumers that
-  can run JS. Pure JSON consumers (Python scripts, RN, etc.) can just fetch
-  `affiliates.json` directly and filter client-side.
+- `index.js` — helper functions for consumers that can run JS:
+  - `getAffiliates({ excludeId, includeDisabled })` — full list, sorted by weight
+  - `getAffiliateById(id)`
+  - `pickAffiliatesForTopics(topics, { excludeId, count })` — contextual selection
+    for content-driven placements (e.g. show affiliates relevant to a blog post's
+    tags, padded out to `count` by weight if there aren't enough topic matches)
+
+  Pure JSON consumers (Python scripts, RN, etc.) can just fetch `affiliates.json`
+  directly and filter/match client-side.
 
 ## Self-exclusion
 
@@ -90,3 +98,4 @@ Quick links to check stats/payouts per program (not consumed by any site):
 | raycast | https://affiliates.raycast.com/login |
 | refgrow | https://refgrow.com/register |
 | elevenlabs | https://app.partnerstack.com/login (ElevenLabs affiliate program runs on PartnerStack) |
+| educative | Affiliate link only (`?aff=BqmB`) — no separate dashboard found. |

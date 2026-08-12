@@ -55,6 +55,19 @@
       "weight": 1
     },
     {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "tag": "AI voice / audio",
+      "description": "Realistic AI text-to-speech and voice cloning for narration, dubbing, and voice agents.",
+      "ctaText": "Try ElevenLabs",
+      "url": "https://try.elevenlabs.io/hp2ci6ap22cr",
+      "icon": "🎙️",
+      "backgroundColor": "#000000",
+      "textColor": "#ffffff",
+      "enabled": true,
+      "weight": 1
+    },
+    {
       "id": "langi",
       "name": "Langi",
       "tag": "Language learning",

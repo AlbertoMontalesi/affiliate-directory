@@ -14,6 +14,7 @@ hardcoding links, so a link only needs to be updated in one place.
     "tag": "Money transfers",
     "description": "...",
     "url": "https://...",
+    "dashboardUrl": "https://...", // your login/stats page for this program, or null. Personal use — sites should not render this field.
     "icon": "💸",
     "backgroundColor": "#059669",
     "textColor": "#ffffff",
@@ -77,3 +78,15 @@ Steps:
   `analytics.montalesi.devom/invite/...`, which looks like a typo of the working
   Wise link (`wise.com/invite/ihpc/albertom231` — used here). Worth fixing in that
   repo once it's switched over to consume this directory.
+
+## `dashboardUrl` reference
+
+Quick links to check stats/payouts per program (not consumed by any site):
+
+| id | dashboard |
+|---|---|
+| wise | Affiliate program runs on Partnerize — no stable direct login URL found; access via the Partnerize portal you were onboarded to. |
+| bunny | https://dash.bunny.net/account/affiliate |
+| raycast | https://affiliates.raycast.com/login |
+| refgrow | https://refgrow.com/register |
+| elevenlabs | https://app.partnerstack.com/login (ElevenLabs affiliate program runs on PartnerStack) |

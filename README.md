@@ -80,13 +80,6 @@ Steps:
    canonical `id` so it can self-exclude correctly.
 3. Bump the version/tag and update consumers per above.
 
-## Known issues
-
-- appFramer's local Wise link (`src/utils/recommendedServices.js`) points to
-  `analytics.montalesi.devom/invite/...`, which looks like a typo of the working
-  Wise link (`wise.com/invite/ihpc/albertom231` — used here). Worth fixing in that
-  repo once it's switched over to consume this directory.
-
 ## `dashboardUrl` reference
 
 Quick links to check stats/payouts per program (not consumed by any site):
